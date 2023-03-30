@@ -7,7 +7,33 @@ const { name, about } = Astro.props as IHeroProps;
 <section>
   <p class="dark:text-light mt-[117px]">Hey, I’m</p>
   <h1>{name}</h1>
-  <p class="dark:text-light text-lg mb-16">
+  <p class="dark:text-light text-lg mb-6">
     {about}
+  </p>
+  <p class="dark:text-light text-lg mb-16">
+    Download my
+    <a
+      aria-label="Download CV"
+      href="#"
+      class="rounded-full py-1 px-4 ml-2 bg-blue hover:bg-slate-300 inline-flex items-center"
+    >
+      CV
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="feather feather-download ml-1"
+      >
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+        <polyline points="7 10 12 15 17 10"></polyline>
+        <line x1="12" y1="15" x2="12" y2="3"></line>
+      </svg>
+    </a>
   </p>
 </section>
