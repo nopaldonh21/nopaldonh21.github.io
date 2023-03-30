@@ -21,6 +21,11 @@ export interface IExperiences {
   details: IExperience[];
 }
 
+export interface ISkills {
+  title: string;
+  details: string[];
+}
+
 export interface IProject {
   title: string;
   isFeatured: boolean;

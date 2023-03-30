@@ -1,0 +1,14 @@
+---
+import { ISkills } from "@types";
+
+const { title = 'SKILLS', details } = Astro.props as ISkills;
+---
+
+<section class="dark:text-light">
+  <h2 class="w-[15rem] mt-16 mb-6">{title}</h2>
+  <p class="dark:text-light text-lg mb-16">
+    {
+      details.join(', ')
+    }
+  </p>
+</section>

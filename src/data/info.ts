@@ -44,6 +44,19 @@ export const info = {
     },
   ],
 
+  skills: [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'Vue.js',
+    'React',
+    'Node.js',
+    'Astro',
+    'PHP',
+    'Laravel',
+    'Lumen',
+  ],
+
   socialMedia: {
     email: "nopaldonh@gmail.com",
     linkedin: "https://www.linkedin.com/in/nopaldo-nur-hidayat/",
