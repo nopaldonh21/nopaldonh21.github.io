@@ -3,6 +3,6 @@ const createLogo = (name) =>
     .split(" ")
     .map((word) => word[0])
     .join("")
-    .toUpperCase();
+    .toLowerCase();
 
 export { createLogo };
