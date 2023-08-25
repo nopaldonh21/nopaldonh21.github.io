@@ -63,11 +63,18 @@ export const info = {
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "Absensi Siswa",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      thumbnail: "/assets/images/projects/absensi-siswa.png",
+      githubUrl: "https://github.com/nopaldonh21/absensi",
+      liveUrl: "",
+    },
+    {
+      title: "PPDB Online",
+      isFeatured: true,
+      thumbnail: "/assets/images/projects/ppdb-online.png",
+      githubUrl: "",
+      liveUrl: "",
     },
   ],
 };
