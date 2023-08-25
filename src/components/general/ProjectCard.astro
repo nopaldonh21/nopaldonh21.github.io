@@ -60,7 +60,12 @@ const { title, thumbnail, liveUrl, githubUrl } = projectDetail;
     }
   </div>
   <a
-  href={liveUrl ? liveUrl : githubUrl}
+  href={liveUrl
+    ? liveUrl
+    : githubUrl
+      ? githubUrl
+      : thumbnail
+  }
   target="_blank"
   >
     <img
