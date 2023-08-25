@@ -7,10 +7,18 @@ import Experience from "@components/home/Experience.astro";
 import Skills from "@components/home/Skills.astro";
 import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import MetaHead from "@components/general/MetaHead.astro";
+import CertificationsWrapper from "@components/general/CertificationsWrapper.astro";
 
 const featureProjects = info.projects.reduce((accumulator, project) => {
   if (accumulator.length < 6 && project.isFeatured) {
     accumulator.push(project);
+  }
+  return accumulator;
+}, []);
+
+const featureCertifications = info.certifications.reduce((accumulator, certification) => {
+  if (accumulator.length < 6 && certification.isFeatured) {
+    accumulator.push(certification);
   }
   return accumulator;
 }, []);
@@ -35,6 +43,10 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
       <section>
         <h2 class="w-[15rem] dark:text-light mt-16">FEATURE PROJECTS</h2>
         <ProjectsWrapper projects={featureProjects} />
+      </section>
+      <section>
+        <h2 class="w-[16rem] dark:text-light mt-16">FEATURE CERTIFICATIONS</h2>
+        <CertificationsWrapper certifications={featureCertifications} />
       </section>
     </Layout>
   </body>
