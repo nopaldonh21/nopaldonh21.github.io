@@ -1,0 +1,10 @@
+---
+import { ICertifications } from "@types";
+import CertificationCard from "./CertificationCard.astro";
+
+const { certifications } = Astro.props as ICertifications;
+---
+
+<div class="grid md:grid-cols-2 grid-cols-1 gap-4 my-16">
+  {certifications.map((certification) => <CertificationCard certificationDetail={certification} />)}
+</div>

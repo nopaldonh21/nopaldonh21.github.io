@@ -1,0 +1,27 @@
+---
+import { info } from "@data";
+
+import CertificationsWrapper from "@components/general/CertificationsWrapper.astro";
+import MetaHead from "@components/general/MetaHead.astro";
+import Layout from "@layouts/Layout.astro";
+
+const Certifications = info.certifications.map((certification) => certification);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <MetaHead
+      title={"Certifications"}
+      description={"All certifications are available in this page."}
+      ogImageUrl={"/assets/images/profile.png"}
+    />
+  </head>
+
+  <body>
+    <Layout>
+      <h1 style="line-height: 1.2;">Certifications</h1>
+      <CertificationsWrapper certifications={Certifications} />
+    </Layout>
+  </body>
+</html>

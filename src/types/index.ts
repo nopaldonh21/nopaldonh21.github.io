@@ -40,3 +40,16 @@ export interface IProjects {
 export interface IProjectDetails {
   projectDetail: IProject;
 }
+
+export interface ICertification {
+  title: string;
+  isFeatured: boolean;
+  thumbnail: string;
+}
+export interface ICertifications {
+  certifications: ICertification[];
+}
+
+export interface ICertificationDetails {
+  certificationDetail: ICertification;
+}

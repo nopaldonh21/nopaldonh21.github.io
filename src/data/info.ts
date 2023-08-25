@@ -77,4 +77,47 @@ export const info = {
       liveUrl: "",
     },
   ],
+
+  certifications: [
+    {
+      title: "Internship - CV IDS",
+      isFeatured: true,
+      thumbnail: "/assets/images/certifications/internship-cv-ids.png",
+    },
+    {
+      title: "Internship - CV VICTORYSTUDOIO09",
+      isFeatured: true,
+      thumbnail: "/assets/images/certifications/internship-cv-victorystudio09.png",
+    },
+    {
+      title: "IT Career Preparation - Alterra",
+      isFeatured: false,
+      thumbnail: "/assets/images/certifications/icp-alterra.png",
+    },
+    {
+      title: "Bootcamp Fan 2021",
+      isFeatured: false,
+      thumbnail: "/assets/images/certifications/bootcamp-fan-2021.png",
+    },
+    {
+      title: "Frontend - Progate",
+      isFeatured: false,
+      thumbnail: "/assets/images/certifications/frontend-progate.png",
+    },
+    {
+      title: "JavaScript - Progate",
+      isFeatured: false,
+      thumbnail: "/assets/images/certifications/javascript-progate.png",
+    },
+    {
+      title: "HTML & CSS - Progate",
+      isFeatured: false,
+      thumbnail: "/assets/images/certifications/html-&-css-progate.png",
+    },
+    {
+      title: "Git - Progate",
+      isFeatured: false,
+      thumbnail: "/assets/images/certifications/git-progate.png",
+    },
+  ],
 };
