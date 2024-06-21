@@ -55,14 +55,16 @@ export const info = {
     'HTML',
     'CSS',
     'JavaScript',
-    'React',
     'Vue.js',
+    'Nuxt',
+    'React',
     'Node.js',
     'Astro',
+    'Bootstrap',
+    'Tailwind CSS',
     'PHP',
     'Laravel',
-    'Lumen',
-    'MySQL'
+    'MySQL',
   ],
 
   socialMedia: {
