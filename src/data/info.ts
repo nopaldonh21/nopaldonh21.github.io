@@ -4,6 +4,7 @@ export const info = {
   jobDescription: "Web Developer",
   about: `I'm a web developer based in Kabupaten Bogor, Jawa Barat, Indonesia. I am interested in programming. Have expertise in web and application development with technologies such as HTML, CSS, JavaScript, React, Vue.js, PHP, Laravel and MySQL. I am a responsible reliable, able to communicate well and can work in a team or individually.
   `,
+  cv: "CV - Nopaldo Nur Hidayat.pdf",
 
   experience: [
     {
