@@ -75,18 +75,18 @@ export const info = {
 
   projects: [
     {
-      title: "Absensi Siswa",
+      title: "Nafeo",
       isFeatured: true,
-      thumbnail: "/assets/images/projects/absensi-siswa.png",
-      githubUrl: "https://github.com/nopaldonh21/absensi",
-      liveUrl: "",
+      thumbnail: "/assets/images/projects/nafeo.png",
+      githubUrl: "",
+      liveUrl: "https://nafeo.id",
     },
     {
-      title: "PPDB Online",
+      title: "Topaz Maritime",
       isFeatured: true,
-      thumbnail: "/assets/images/projects/ppdb-online.png",
+      thumbnail: "/assets/images/projects/topazmaritime.png",
       githubUrl: "",
-      liveUrl: "",
+      liveUrl: "https://topazmaritime.co.id",
     },
   ],
 
