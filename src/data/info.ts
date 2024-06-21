@@ -8,6 +8,16 @@ export const info = {
 
   experience: [
     {
+      name: "Freelancer, Full Stack Developer",
+      location: "",
+      startDate: "2022",
+      endDate: "Current",
+      description: [
+        "- Develop nafeo.id, event organizer website.",
+        "- Build topazmaritime.co.id, company profile website of PT TOPAZ MARITIME.",
+      ],
+    },
+    {
       name: "CV VICTORYSTUDIO09, Full Stack Developer - Internship",
       location: "Kota Bogor, Jawa Barat, Indonesia",
       startDate: "Dec 2021",
@@ -18,7 +28,6 @@ export const info = {
         "- Create a simple web for promotion, information and sales",
       ],
     },
-
     {
       name: "CV IDS KEJAR.ID, Frontend Developer - Internship",
       location: "Kota Bogor, Jawa Barat, Indonesia",
