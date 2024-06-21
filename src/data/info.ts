@@ -92,14 +92,14 @@ export const info = {
 
   certifications: [
     {
-      title: "Internship - CV IDS",
-      isFeatured: true,
-      thumbnail: "/assets/images/certifications/internship-cv-ids.png",
-    },
-    {
       title: "Internship - CV VICTORYSTUDOIO09",
       isFeatured: true,
       thumbnail: "/assets/images/certifications/internship-cv-victorystudio09.png",
+    },
+    {
+      title: "Internship - CV IDS",
+      isFeatured: true,
+      thumbnail: "/assets/images/certifications/internship-cv-ids.png",
     },
     {
       title: "IT Career Preparation - Alterra",
