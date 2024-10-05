@@ -75,11 +75,11 @@ export const info = {
 
   projects: [
     {
-      title: "Nafeo",
+      title: "RISH Archery",
       isFeatured: true,
-      thumbnail: "/assets/images/projects/nafeo.png",
+      thumbnail: "/assets/images/projects/risharchery.png",
       githubUrl: "",
-      liveUrl: "https://nafeo.id",
+      liveUrl: "https://risharchery.com",
     },
     {
       title: "Topaz Maritime",
@@ -87,6 +87,13 @@ export const info = {
       thumbnail: "/assets/images/projects/topazmaritime.png",
       githubUrl: "",
       liveUrl: "https://topazmaritime.co.id",
+    },
+    {
+      title: "Nafeo",
+      isFeatured: true,
+      thumbnail: "/assets/images/projects/nafeo.png",
+      githubUrl: "",
+      liveUrl: "https://nafeo.id",
     },
   ],
 
