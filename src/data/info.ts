@@ -15,6 +15,7 @@ export const info = {
       description: [
         "- Develop nafeo.id, event organizer website.",
         "- Build topazmaritime.co.id, company profile website of PT TOPAZ MARITIME.",
+        "- Rebuild risharchery.com, archery course website.",
       ],
     },
     {
